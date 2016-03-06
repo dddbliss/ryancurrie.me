@@ -1,0 +1,25 @@
+---
+layout: default
+title: Categories
+bodyclass: home
+---
+
+<section class="posts txt-center container">
+
+  {% for tag in site.categories %}
+    <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
+
+      {% assign pages_list = tag[1] %}
+      {% for post in pages_list %}
+        {% if post.title != null %}
+        {% if group == null or group == post.group %}
+          {% include article.html %}
+        {% endif %}
+        {% endif %}
+      {% endfor %}
+      {% assign pages_list = nil %}
+      {% assign group = nil %}
+  
+  {% endfor %}
+
+</section>

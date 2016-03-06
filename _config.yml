@@ -1,4 +1,5 @@
-permalink   : /:categories/:year/:title/
+gems: [jekyll-paginate]
+permalink   : /:year/:month/:title/
 markdown    : kramdown
 highlighter : rogue
 

@@ -15,11 +15,18 @@
       </ul>
     </nav>
 
-    <strong>Topics: </strong>
-      {% for post in site.posts limit:5 %}
-        <a href="{{ post.url }}">{{ post.title }}</a> &middot;
+    <nav class="navbar">
+      <ul>
+      <li><span class="navbar-text">Topics</small></li>
+      <li class="divider">&#133;</li>
+      {% for tag in site.categories %}
+        <li><a href="{{ "/categories/#" | prepend: site.baseurl | append: tag[0] }}">{{ tag[0] | lowercase }}</a></li>
+        <li class="divider">,</li>
       {% endfor %}
-      <a href="{{ "/" | prepend: site.baseurl }}">View more...</a>
+
+      <li><a href="{{ "/" | prepend: site.baseurl }}">view all...</a></li>
+      </ul>
+    </nav>
     <hr class="hr">
 
   </div>
