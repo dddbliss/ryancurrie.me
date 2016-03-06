@@ -1,4 +1,3 @@
-gems: [jekyll-paginate]
 permalink   : /:categories/:year/:title/
 markdown    : kramdown
 highlighter : rogue
