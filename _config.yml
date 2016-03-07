@@ -1,7 +1,7 @@
 gems: [jekyll-paginate]
 permalink   : /:year/:month/:title/
 markdown    : kramdown
-highlighter : rogue
+highlighter : pygments
 
 paginate: 4 #6
 comments: true
@@ -28,16 +28,10 @@ google_analytics: UA-52446115-1
 social:
   github:
     slug: github
-    link: http://github.com/nandomoreirame
+    link: http://github.com/dddbliss
   facebook:
     slug: facebook
-    link: http://facebook.com/fernando.dev
+    link: http://facebook.com/dddbliss
   twitter:
     slug: twitter
-    link: http://twitter.com/nandomoreirame
-  instagram:
-    slug: instagram
-    link: http://instagram.com/nandomoreira.me
-  linkedin:
-    slug: linkedin
-    link: http://linkedin.com/in/nandomoreirame
+    link: http://twitter.com/dddbliss
