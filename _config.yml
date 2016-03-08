@@ -1,7 +1,10 @@
 gems: [jekyll-paginate]
 permalink   : /:year/:month/:title/
 markdown    : kramdown
-highlighter : pygments
+highligher: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 paginate: 4 #6
 comments: true
@@ -22,7 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ryancurrie.me/"
 repository: "https://github.com/nandomoreirame/lora"
 disqus_shortname: "ryancurrie"
-google_analytics: UA-52446115-1
+google_analytics: UA-35078371-4
 
 # social footer
 social:
