@@ -22,7 +22,7 @@ description: "Tech Enthusiast"
 email: dddbliss@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://ryancurrie.me"
-url: "http://ryancurrie.me/"
+url: "http://ryancurrie.me"
 repository: "https://github.com/nandomoreirame/lora"
 disqus_shortname: "ryancurrie"
 google_analytics: UA-35078371-4
